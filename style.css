@@ -1,0 +1,91 @@
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  background: hsl(0, 0%, 50%) url('achtergrond.jpg') repeat;
+}
+
+*  {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: url('headerfoto.jpg');
+  width: 960px;
+  height: 150px;
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:  #DFDFDF;
+  text-align: center;
+  text-shadow: 5px 5px 7px #5f5980;
+}
+
+ul {
+  background: #0E34A0;
+  padding: 10px;
+}
+
+ul li {
+  background: #dfdfdf;
+  padding: 5px;
+  border: solid 6px #2F3061;
+  display: inline-block;
+}
+
+ul li a {
+  color: #211A1D;
+  text-decoration: wavy;
+}
+
+ul li a:hover {
+  color: #C0C0C0;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px black;
+  border-style: double;
+}
+
+section article {
+  border: 3px solid black;
+  border-style: groove;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+
+}
+article h2 {
+  padding: 5px;
+  margin: 5px;
+}
+
+article p {
+  padding: 5px;
+  margin: 5px;
+}
+
+footer {
+  background: #F0F0F0;
+}
+
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+  border: 3px;
+  background-color: #DFDFDF;
+  border-color: #343434;
+  border-style: groove;
+  padding: 5px;
+  margin: 5px;
+}
+
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
